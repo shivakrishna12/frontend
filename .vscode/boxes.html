@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <title>boxes</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            display: flex; /* Use flexbox for layout */
+            width:80%;
+            height:400px;
+            border: 1px solid black;
+            margin: auto;
+            background-color: azure;
+        }
+        .box1 {
+            width: 60%;   
+            height: 400px;          
+            display: flex; /* Nested flex container */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            margin-right: 10px; /* Add margin between boxes */
+            margin-left:10px;
+            text-align: center;
+        }
+        .box2 {
+            width: 35%;   
+            height: 400px;          
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            margin-right: 10px; /* Add margin between boxes */
+            margin-left:10px;
+        }
+       /*tick mark*/
+        ul{
+            list-style-type: none;
+        }
+        li {
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center content vertically */
+            margin-bottom: 10px; /* Add margin between list items */
+
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- Container for boxes -->
+        <div class="box1">
+           <img src="/img.jpg" alt="pic" width="750px" height="400px" >
+        </div>
+        <div class="box2">
+            <h2>Collaborative tools to design user experience</h2>
+            <div>
+            <p>We help businesses bring ideas to life in the digital world,
+                 by designing and implementing the technology tools that they need to win.</p>
+                </div>  
+                <ul>
+                    <li>Less routine – more creativity</li>
+                    <li>Hundreds of thousands saved</li>
+                    <li>Scale budgets efficiently</li>
+                </ul>   
+
+        </div>
+    </div>
+</body>
+</html>
